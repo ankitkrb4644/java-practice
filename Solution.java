@@ -1,22 +1,18 @@
 import java.util.Scanner;
-
 public class Solution {
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int N = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        // Complete this line
+        // Complete this line
+        int b = scan.nextInt();
+        int c = scan.nextInt();
         
-        if (N % 2 != 0) {
-            System.out.println("Weird");
-        } else if (N >= 2 && N <= 5) {
-            System.out.println("Not Weird");
-        } else if (N >= 6 && N <= 20) {
-            System.out.println("Weird");
-        } else {
-            System.out.println("Not Weird");
-        }
-
-        scanner.close();
+        System.out.println(a);
+        // Complete this line
+        // Complete this line
+        System.out.println(b);
+        System.out.println(c);
     }
 }
