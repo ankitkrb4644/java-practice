@@ -9,6 +9,7 @@ public class for_loop {
         int Result=N*i;
             System.out.println(N+" x " +i+ " = " +Result);
         }
+        //for_loop
         bufferedReader.close();
     }
 }
