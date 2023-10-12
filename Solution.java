@@ -14,5 +14,6 @@ public class Solution {
         // Complete this line
         System.out.println(b);
         System.out.println(c);
+        scan.close();
     }
 }
