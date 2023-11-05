@@ -1,6 +1,5 @@
 public class multi_dim_arr {
     public static void main(String[] args){
-        int [] marks;
         int [][] flats;
         flats = new int[2][3];
         flats[0][0]=101;
