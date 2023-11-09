@@ -1,4 +1,4 @@
-class employee1{
+class employee{
     int salary;
     String name;
 
@@ -23,8 +23,18 @@ class Cellphone{
         System.out.println("calling Anki......t");
     }
 }
+class square{
+    int side;
+    public int area(){
+        return side*side;
+    }
+    public int perimeter(){
+        return 4*side;
+    }
+}
 public class oops_practice {
     public static void main (String[] args ){
+    /*    problem2
     employee1 ankit = new employee1();
     ankit.setName("APB");
     ankit.salary=700;
@@ -34,6 +44,10 @@ public class oops_practice {
         Cellphone real = new Cellphone();
         real.callFriend();
         real.vibrating();
-        real.ring();
+        real.ring();*/
+        square sq = new square();
+        sq.side=4;
+        System.out.println(sq.area());
+        System.out.println(sq.perimeter());
     }
 }

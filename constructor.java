@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class constructor {
+public class constructor {
+    
 }
