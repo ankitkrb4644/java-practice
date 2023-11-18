@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 class Employee{
     int id;
     int salary;
