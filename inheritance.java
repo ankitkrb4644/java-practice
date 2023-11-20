@@ -11,7 +11,7 @@ class base{
         System.out.println("i am constructor");
     }
 }
-class derived extends base{
+class derived extends base{     //this derived base class acquires all the properties and behaviors of parent object.
     int y;
 
     public int getY(){
