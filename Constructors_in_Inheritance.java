@@ -3,7 +3,7 @@ public class Constructors_in_Inheritance {
 //        Base1 b = new Base1();
 //        derived1 b1 = new derived1();
 //        derived1 b2 = new derived1 ( 14, 9);
-        Childofderived c = new  Childofderived( 12,13,15);
+        Childofderived c1 = new  Childofderived( 12,13,15);
     }
 }
 class Base1{
