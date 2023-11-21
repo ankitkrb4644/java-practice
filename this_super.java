@@ -21,5 +21,6 @@ public class this_super {
         second_Class e =new second_Class(4);
         System.out.println(e.getA());
         DoClass d = new DoClass(5);
+        System.out.println(d);
     }
 }
