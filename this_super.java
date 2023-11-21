@@ -11,10 +11,10 @@ class second_Class{
     }
 }
 class DoClass extends second_Class{
-  DoClass(int c){
-      super(c);
-      System.out.println("i'm a constructor");
-  }
+DoClass(int c){
+    super(c);
+    System.out.println("i'm a constructor");
+}
 }
 public class this_super {
     public static void main(String[] args) {
