@@ -5,7 +5,7 @@ interface Animal{
 interface Herbivore{
 
 }
-class Horse implements Animal ,Herbivore{
+class Horse implements Animal,Herbivore{   //multi level inheritance
     public void walk(){
         System.out.println("walks on 4 legs");
     }
