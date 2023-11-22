@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class Error_Exception {
+public class Error_Exception {
 }
