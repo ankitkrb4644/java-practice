@@ -23,6 +23,6 @@ public class practice_inheritance {
     public static void main(String[] args) {
         //problem 1
 //        circle obj = new circle(12);
-        cylinder1 obj1 = new cylinder1(12,4);
+        // cylinder1 obj2 = new cylinder1(12,4);
     }
 }
