@@ -14,8 +14,8 @@ public class variable {
         System.out.println(name);
         //second example
         Scanner sc1 = new Scanner(System.in);
-        int a =sc.nextInt();
-        int b =sc.nextInt();
+        int a =sc1.nextInt();
+        int b =sc1.nextInt();
         int sum = a+b;
         System.out.println(sum);
     }
