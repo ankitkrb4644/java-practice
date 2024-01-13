@@ -10,6 +10,6 @@ public class function {
         int b = sc.nextInt();
         
         int sum = calculateSum(a,b);
-        System.out.println("sum of 2 number is :"+sum);
+        System.out.println("sum of 2 number is :" +sum);
     }
 }
