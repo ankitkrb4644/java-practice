@@ -8,5 +8,8 @@ public class function {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        
+        int sum = calculateSum(a,b);
+        System.out.println("sum of 2 number is :"+sum);
     }
 }
